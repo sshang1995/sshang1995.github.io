@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#title: Shu's Blog
+title: Shu's Blog
 email: shangshu1024@gmail.com
 #description: Angular, Javascript, etc.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -31,12 +31,12 @@ github_username:  sshang1995
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 
-kramdown:
-   syntax_highlighter_opts:
-      disable : true
+# kramdown:
+#    syntax_highlighter_opts:
+#       disable : true
 
 
 # Exclude from processing.
