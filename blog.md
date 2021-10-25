@@ -1,3 +1,3 @@
 layout: page
-title: "Blog"
-permalink: /blog
+title: Blog
+permalink: /blog/
